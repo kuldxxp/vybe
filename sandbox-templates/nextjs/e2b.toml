@@ -1,0 +1,17 @@
+# This is a config for E2B sandbox template.
+# You can use template ID (wb6zm598thzpj2nktlxg) or template name (vybe-nextjs-vybe-dev) to create a sandbox:
+
+# Python SDK
+# from e2b import Sandbox, AsyncSandbox
+# sandbox = Sandbox("vybe-nextjs-vybe-dev") # Sync sandbox
+# sandbox = await AsyncSandbox.create("vybe-nextjs-vybe-dev") # Async sandbox
+
+# JS SDK
+# import { Sandbox } from 'e2b'
+# const sandbox = await Sandbox.create('vybe-nextjs-vybe-dev')
+
+team_id = "2f6358ba-2507-4be9-bfb7-ac31507ae20e"
+start_cmd = "/compile_page.sh"
+dockerfile = "e2b.Dockerfile"
+template_name = "vybe-nextjs-vybe-dev"
+template_id = "wb6zm598thzpj2nktlxg"
