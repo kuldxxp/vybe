@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Vybe — AI Website & App Builder
 
-## Getting Started
+> Build production‑ready full‑stack apps from a single prompt.  
+> **Stack:** Next.js 15 • React 19 • Tailwind CSS v4 • Inngest (agents/workflows) • Prisma • PostgreSQL • Clerk (Auth & Billing) • E2B (secure code sandbox)
 
-First, run the development server:
+<p align="center">
+  <img src="./public/og.png" alt="Vybe preview" width="720"/>
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+[![Next.js](https://img.shields.io/badge/Next.js-15-black.svg?logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19-20232a.svg?logo=react)](https://react.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-38B2AC.svg?logo=tailwind-css)](https://tailwindcss.com/)
+[![Prisma](https://img.shields.io/badge/Prisma-ORM-2D3748.svg?logo=prisma)](https://www.prisma.io/)
+[![Postgres](https://img.shields.io/badge/PostgreSQL-DB-4169E1.svg?logo=postgresql)](https://www.postgresql.org/)
+[![Inngest](https://img.shields.io/badge/Inngest-Workflows-0b76e0.svg)](https://www.inngest.com/)
+[![Clerk](https://img.shields.io/badge/Clerk-Auth%20%26%20Billing-6C47FF.svg)](https://clerk.com/)
+[![E2B](https://img.shields.io/badge/E2B-Code%20Sandbox-000.svg)](https://e2b.dev/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ What Vybe Does
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Prompt‑to‑App Generation** – Describe the product; Vybe plans tasks, scaffolds a Next.js project, and writes code.
+- **Agentic Workflows with Inngest** – Reliable background jobs for codegen, dependency installs, previews, and deploys.
+- **Live Preview & Visual Editing** – See builds in real time; iterate without leaving the browser.
+- **Auth & Billing** – Sign‑in/up and subscriptions powered by Clerk (drop‑in UI; orgs/teams supported).
+- **Database & ORM** – PostgreSQL + Prisma for models, migrations, and type‑safe queries.
+- **Code Execution Sandbox** – Securely run AI‑generated code in isolated cloud sandboxes via E2B.
+- **Multi‑Model Provider Support** – Bring your own keys for OpenAI, Anthropic, and xAI (Grok).
+- **One‑Click Ship** – Export to Git or deploy to your host of choice (e.g., Vercel).
 
-## Learn More
+> **Note:** Vybe is an educational project inspired by lovable.dev. It is not affiliated with Lovable.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧱 Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Frontend**: Next.js 15 (App Router), React 19, Tailwind CSS v4
+- **Backend**: Route Handlers (`app/api/*`), Inngest functions for long‑running/agent tasks
+- **Data**: PostgreSQL (local, Docker, or Neon), Prisma ORM
+- **Auth & Billing**: Clerk (users, orgs, subscriptions)
+- **AI & Execution**: OpenAI / Anthropic / xAI (Grok) + E2B sandbox for safe code execution
+- **Tooling**: TypeScript, ESLint, Prettier, pnpm
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🗂️ Project Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
